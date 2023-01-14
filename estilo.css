@@ -1,0 +1,135 @@
+* {
+    margin: auto;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navegacao {
+   
+    min-width: 320px;
+    max-width: 800px;
+    display: block;
+    flex-direction: center;
+    justify-content: center;
+    
+}
+
+.logo {
+    display: flex;
+    flex-direction: center;
+    cursor: pointer;
+    
+}
+
+.conteiner-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.barra-navegacao {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    min-width: 320px;
+}
+
+.lista {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.logo,.logo-color{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.2rem; 
+}
+
+.logo-color{
+    color: red;
+
+}
+
+.titulo-artes,a {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+
+.foto {
+    margin-top: 20px;
+    min-width: 320px;
+    max-width: 800px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo, img {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+img {
+    width: 50%;
+}
+
+.ver-mais {
+    height: 50px;
+    font-size: 22px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ver-mais, a {
+    text-decoration: none;
+}
+
+#roda-pe {
+    margin-top: 50px;
+    min-width: 320px;
+    max-width: 800px;
+    display: block;
+    flex-direction: center;
+    justify-content: center;
+}
+
+.contatos {
+    display: block;
+    align-items: center;
+    flex-direction: center;
+    justify-content: center;
+    width: 320px;
+    height: 350px;
+}
+
+.roda-pe-contatos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+
+.contatos-lista {
+    padding: 15px;
+    display: block;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    list-style: none;
+    cursor: pointer;
+    font-size: 20px;
+}
